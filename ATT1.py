@@ -1,7 +1,7 @@
 _varNotaTotal = 0
 Lista_Alunos = []
 
-for i in range(3):
+for i in range(10):
     _varNomeAluno = input(f"Digite o nome do {i + 1}º aluno: ")
     _varNotaAluno = input(f"Digite a nota do {i + 1}º aluno: ")
     Dic_Aluno = {"Nome": _varNomeAluno, "Nota": _varNotaAluno}
